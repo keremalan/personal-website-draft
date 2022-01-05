@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talha Kılıç | İletişim</title>
+    <link rel="stylesheet" href="../stiller/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stiller/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="sidebar bg-dark">
+            <img class="profil-resmim" src="../stiller/resimler/profil.png" alt="Profil fotoğrafı">
+            <h1 class="text-light">Talha Kılıç</h1>
+            <div class="links">
+                <a href="../index.html">Anasayfa</a>
+                <a href="./hakkinda.html">Hakkımda</a>
+                <a href="./ozgecmis.html">Özgeçmiş</a>
+                <a href="./sehrim.html">Şehrim</a>
+                <a href="./iletisim.html">İletişim</a>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="text-light">İletişim</h1>
+            <form action="" class="ileti-gonder">
+                <div class="form-group">
+                    <label for="name" class="text-light">İsim</label>
+                    <input required="required" type="text" class="form-control" id="input-name" placeholder="İsminizi girin">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="text-light">E-Posta / Telefon</label>
+                    <input required="required" type="email" class="form-control" id="input-email" placeholder="E-Postanızı veya telefonunuzu girin">
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="text-light">Konu</label>
+                    <input required="required" type="text" class="form-control" id="input-subject" placeholder="Konuyu girin">
+                </div>
+                <div class="form-group">
+                    <label for="message" class="text-light">Mesajınız</label>
+                    <textarea required="required" type="textarea" class="form-control" id="input-message" placeholder="Mesajınızı girin"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button><button type="clear" class="btn btn-secondary margin-left" onclick="return resetForm(this.form);">Temizle</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

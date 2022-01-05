@@ -1,0 +1,139 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+html {
+    height: 100vh;
+    background-color: #161616;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: fixed;
+    height: 100%;
+    width: 24%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 3.8;
+    padding-left: 25%;
+    background-color: #161616;
+    height: 100%;
+    place-items: center;
+    padding-bottom: 120px;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+div.links > a {
+    height: 5vh;
+}
+
+div.links > a:hover {
+    text-decoration: none;
+    color: white;
+
+    width: inherit;
+    background-color: #343434;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Sayfalar */
+
+.content {
+    padding-top: 5%;
+}
+
+.content-text {
+    width: 60%;
+}
+
+.content > .content-text > h1 {
+    margin-top: 10%;
+    font-size: 6vh;
+}
+
+.content > h3 {
+    font-weight: normal;
+    font-size: 2vh;
+}
+
+.content > .content-text > p {
+    text-align: justify;
+}
+
+.profil {
+    width: 10vh;
+}
+
+.profil-resmim {
+    width: 10vw;
+}
+
+.margin-top {
+    margin-top: 12px;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.small-text {
+    font-size: 1.vh;
+}
+
+.dil {
+    margin-left: 16px;
+}
+
+.image {
+    width: 60%;
+}
+
+.satir {
+    display: flex;
+    flex-direction: column;
+}
+
+.image2 {
+    width: 100%;
+}
+
+.ileti-gonder {
+    width: 36%;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+
+#test {
+    margin-left: 10px;
+}
+
+#test1 {
+    padding-left: 10px;
+}
